@@ -36,7 +36,6 @@
 }
 
 div#timeline {
-	background-color: rgba(53, 123, 184, 0.52);
 	margin-top: 80px;
 	height: 25px;
 	width: 100%;
@@ -45,23 +44,24 @@ div#timeline {
 
 div#timeline .inside {
 	position: absolute;
-	height: 4px;
-	background-color: #fff;
+	height: 10px;
+	background-color: rgba(28, 255, 221, 0.65);
 	width: 0%;
-	top: 3px;
+	top: 0px;
 	left: 0;
 }
 div#timeline .dot {
 	z-index: 99;
 	-webkit-transition: 0.3s ease-in-out;
 	transition: 0.3s ease-in-out;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
+	width: 50px;
+	height: 20px;
+	border-radius: 20%;
 	position: absolute;
 	top: -15px;
 	text-align: center;
 	cursor: pointer;
+	box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.79);
 }
 div#timeline .dot:nth-child(1) {
 	left: 20%;
@@ -98,10 +98,10 @@ div#timeline .dot span {
 	margin-top: 10px;
 	width: 20px;
 	height: 20px;
-	background-color: #fff;
+	background-color: #f5f5f5;
 	position: relative;
 	border-radius: 50%;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	box-shadow: -5px 0 10px rgba(0, 0, 0, 0.79);
 }
 
 article {
