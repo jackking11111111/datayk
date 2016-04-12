@@ -1790,7 +1790,8 @@
 		}
 
 		.box.style1 {
-			background: #fff;
+			background: rgba(255, 255, 255, 0.21);
+color: #fff;
 			padding: 3em;
 		}
 
