@@ -1323,7 +1323,6 @@
 		letter-spacing: 1px;
 		color: #3a3939;
 		text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
-		-webkit-text-stroke: 0.25px;
 	}
 
 		body.is-scroll {
@@ -1948,7 +1947,7 @@
 
 			#header header p {
 				border-top: solid 1px rgba(255, 255, 255, 0.5);
-				color: rgba(255, 255, 255, 0.75);
+				color: #fff);
 				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.1875);
 				font-size: 1em;
 				text-transform: uppercase;
@@ -1998,7 +1997,7 @@
 
 	#banner {
 		position: relative;
-		color: #fff;
+		color: rgba(238, 238, 238, 0.86);
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		background: #357BB8 url("images/banner.svg") bottom center no-repeat;
@@ -2008,7 +2007,7 @@
 	}
 
 		#banner .button {
-			color: rgba(37, 143, 195, 0.88);;
+			color: rgba(9, 168, 247, 0.88);
 			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
 		}
 
@@ -2251,12 +2250,12 @@
 		/* Basic */
 
 			body {
-				background-color: #203936;
-				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
+				background-color: #216F9B;
+				background-image: url("images/overlay.png"), url("../../images/bg-alt2.jpg");
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;
-				background-attachment: scroll, scroll;
+				/*background-attachment: scroll, scroll;*/
 				font-size: 14pt;
 			}
 
