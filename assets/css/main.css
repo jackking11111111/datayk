@@ -446,7 +446,18 @@
 		margin-left: 8.33333%;
 	}
 
-	@media screen and (max-width: 1680px) {
+	@media screen (min-width: 840px) and (max-width: 1080px) {
+
+		.box.style1.right .image img {
+		margin-left: -150px;
+		}
+}
+	@media screen (min-width: 480px) and (max-width: 1680px) {
+
+		.box.style1.right .image img {
+		margin-left: -150px;
+		}
+
 
 		.row > * {
 			padding: 40px 0 0 40px;
@@ -1309,7 +1320,7 @@
 /* Basic */
 
 	body {
-		background-color: #183026;
+		background-color: #206C98;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
