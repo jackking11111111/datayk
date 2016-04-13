@@ -1,14 +1,20 @@
 $('.dot:nth-child(1)').click(function () {
-$('.inside').animate({ 'width': '20%' }, 500);
+$('.inside').animate({ 'width': '9.8%' }, 500);
 });
 $('.dot:nth-child(2)').click(function () {
-$('.inside').animate({ 'width': '40%' }, 500);
+$('.inside').animate({ 'width': '26.46%' }, 500);
 });
 $('.dot:nth-child(3)').click(function () {
-$('.inside').animate({ 'width': '60%' }, 500);
+$('.inside').animate({ 'width': '43.13%' }, 500);
 });
 $('.dot:nth-child(4)').click(function () {
-$('.inside').animate({ 'width': '80%' }, 500);
+$('.inside').animate({ 'width': '59.8%' }, 500);
+});
+$('.dot:nth-child(5)').click(function () {
+$('.inside').animate({ 'width': '76.46%' }, 500);
+});
+$('.dot:nth-child(6)').click(function () {
+$('.inside').animate({ 'width': '93.13%' }, 500);
 });
 if ($('#switch1').not(':checked')) {
 $('.modal').wrap('<div class="mask"></div>');
