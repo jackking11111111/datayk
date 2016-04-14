@@ -1860,7 +1860,7 @@ color: #fff;
 
 			.box.style2 header {
 				display: inline-block;
-				background: #fff;
+				background: rgba(255, 255, 255, 0.21);
 				padding: 2em 3em 2em 3em;
 				margin: 0;
 			}
