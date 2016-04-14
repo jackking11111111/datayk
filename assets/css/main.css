@@ -446,13 +446,15 @@
 		margin-left: 8.33333%;
 	}
 
-	@media screen (min-width: 840px) and (max-width: 1080px) {
+	@media screen and (min-width: 736px) and (max-width: 990px) {
 
-		.box.style1.right .image img {
-		margin-left: -150px;
+		.box.style1.left .image img {
+			left: 0;
+			margin-left: -100px;
 		}
+
 }
-	@media screen (min-width: 480px) and (max-width: 1680px) {
+	@media screen and (min-width: 736px) and (max-width: 990px) {
 
 		.box.style1.right .image img {
 		margin-left: -150px;
@@ -1811,7 +1813,7 @@ color: #fff;
 				top: 0;
 				width: 50%;
 				height: 100%;
-				background: #152E33;
+				background: rgba(255, 255, 255, 0);
 				overflow: hidden;
 			}
 
